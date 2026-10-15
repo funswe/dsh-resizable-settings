@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Resizable Settings",
+    "description": "Drag the Settings dialog's edges and corners to resize it, and its top strip to move it. The chosen size is remembered, and the panel stays below the window caption."
+  }
+}

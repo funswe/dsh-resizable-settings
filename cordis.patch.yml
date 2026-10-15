@@ -1,0 +1,7 @@
+# Bundle patch for dsh-resizable-settings.
+#
+# Pure UI plugin: the empty host half exists so the plugin owns a Loader row,
+# which is how the client module system learns to serve lib/client.js.
+- insert:
+    - id: resizable-settings
+      name: dsh-resizable-settings

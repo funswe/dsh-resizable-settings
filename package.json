@@ -1,0 +1,51 @@
+{
+  "name": "dsh-resizable-settings",
+  "version": "0.1.1",
+  "description": "DSH web plugin: drag the Settings dialog's edges and corners to resize it and its top strip to move it; the chosen size is remembered, and the panel stays below the window caption.",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "plugin",
+    "settings",
+    "resize",
+    "ui"
+  ],
+  "type": "module",
+  "license": "MIT",
+  "author": "funswe",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/funswe/dsh-resizable-settings.git"
+  },
+  "homepage": "https://github.com/funswe/dsh-resizable-settings#readme",
+  "bugs": {
+    "url": "https://github.com/funswe/dsh-resizable-settings/issues"
+  },
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    }
+  },
+  "files": [
+    "lib",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}

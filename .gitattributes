@@ -1,0 +1,3 @@
+# Keep the working tree LF-only: this package ships as-is (no build step), so
+# stray CRLF would show up as diffs on every Windows contribution.
+* text=auto eol=lf
