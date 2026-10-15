@@ -43,6 +43,7 @@
     "cordis.patch.yml",
     "locale/*.json",
     "README.md",
+    "README.zh.md",
     "LICENSE"
   ],
   "publishConfig": {
